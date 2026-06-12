@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo "good, I am a super user"
+sudo echo "good, I am a super user"
 
 read -p "This will remove your whole Linux installation, continue? [Y/n] " response
 response=${response,,}
